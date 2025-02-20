@@ -1,24 +1,33 @@
-# README
+# サンプルアプリケーション
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+これはRuby on Railsで作成されたサンプルプロジェクトです。
 
-Things you may want to cover:
+## 現在の状況
+- Railsアプリケーションの初期セットアップが完了
+- デフォルトのREADMEテンプレートを配置
+- リポジトリ構造の確立
+- 今後の開発準備完了
 
-* Ruby version
+## セットアップ手順
 
-* System dependencies
+### 必要条件
+* Rubyバージョン: TBD
+* Railsバージョン: TBD
+* データベース: TBD
 
-* Configuration
+### 設定手順
+1. リポジトリのクローン
+2. 依存関係のインストール
+3. データベースのセットアップ
+4. サーバーの起動
 
-* Database creation
+## 開発
 
-* Database initialization
+### テスト
+テストスイートの実行手順は、テストが実装され次第追加されます。
 
-* How to run the test suite
+### サービス
+ジョブキュー、キャッシュサーバー、検索エンジンなどのサービスの詳細は、それらが統合された時点で追加されます。
 
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+## デプロイ
+デプロイ手順は、デプロイ設定が確定次第更新されます。
