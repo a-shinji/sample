@@ -1,33 +1,33 @@
-# Sample Application
+# サンプルアプリケーション
 
-This is a Ruby on Rails application that serves as a sample project.
+これはRuby on Railsで作成されたサンプルプロジェクトです。
 
-## Current Status (現在の状況)
-- Initial Rails application setup completed
-- Default README template in place
-- Repository structure established
-- Ready for further development
+## 現在の状況
+- Railsアプリケーションの初期セットアップが完了
+- デフォルトのREADMEテンプレートを配置
+- リポジトリ構造の確立
+- 今後の開発準備完了
 
-## Setup Instructions
+## セットアップ手順
 
-### Prerequisites
-* Ruby version: TBD
-* Rails version: TBD
-* Database: TBD
+### 必要条件
+* Rubyバージョン: TBD
+* Railsバージョン: TBD
+* データベース: TBD
 
-### Configuration Steps
-1. Clone the repository
-2. Install dependencies
-3. Set up database
-4. Start the server
+### 設定手順
+1. リポジトリのクローン
+2. 依存関係のインストール
+3. データベースのセットアップ
+4. サーバーの起動
 
-## Development
+## 開発
 
-### Testing
-Instructions for running the test suite will be added as tests are implemented.
+### テスト
+テストスイートの実行手順は、テストが実装され次第追加されます。
 
-### Services
-Details about required services (job queues, cache servers, search engines, etc.) will be documented as they are integrated.
+### サービス
+ジョブキュー、キャッシュサーバー、検索エンジンなどのサービスの詳細は、それらが統合された時点で追加されます。
 
-## Deployment
-Deployment instructions will be updated once deployment configuration is finalized.
+## デプロイ
+デプロイ手順は、デプロイ設定が確定次第更新されます。
