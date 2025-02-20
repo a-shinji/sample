@@ -1,24 +1,33 @@
-# README
+# Sample Application
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This is a Ruby on Rails application that serves as a sample project.
 
-Things you may want to cover:
+## Current Status (現在の状況)
+- Initial Rails application setup completed
+- Default README template in place
+- Repository structure established
+- Ready for further development
 
-* Ruby version
+## Setup Instructions
 
-* System dependencies
+### Prerequisites
+* Ruby version: TBD
+* Rails version: TBD
+* Database: TBD
 
-* Configuration
+### Configuration Steps
+1. Clone the repository
+2. Install dependencies
+3. Set up database
+4. Start the server
 
-* Database creation
+## Development
 
-* Database initialization
+### Testing
+Instructions for running the test suite will be added as tests are implemented.
 
-* How to run the test suite
+### Services
+Details about required services (job queues, cache servers, search engines, etc.) will be documented as they are integrated.
 
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+## Deployment
+Deployment instructions will be updated once deployment configuration is finalized.
