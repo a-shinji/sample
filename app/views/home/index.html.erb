@@ -1,0 +1,39 @@
+<div class="max-w-md mx-auto" data-controller="searchable-dropdown">
+  <div class="space-y-4">
+    <div>
+      <label class="block text-sm font-medium text-gray-700 mb-1" for="selected-item">選択された項目</label>
+      <input
+        type="text"
+        id="selected-item"
+        name="選択された項目"
+        data-searchable-dropdown-target="input"
+        class="w-full rounded-md border px-4 py-2 text-sm focus:ring-2 focus:ring-blue-500"
+        readonly
+        placeholder="項目を選択してください"
+        data-action="click->searchable-dropdown#showDropdown"
+      >
+    </div>
+
+    <div data-searchable-dropdown-target="dropdown" class="hidden">
+      <div class="relative">
+        <input
+          type="text"
+          data-searchable-dropdown-target="search"
+          class="w-full rounded-md border pl-10 pr-4 py-2 text-sm focus:ring-2 focus:ring-blue-500"
+          placeholder="検索..."
+          data-action="input->searchable-dropdown#search"
+        >
+        <svg xmlns="http://www.w3.org/2000/svg" class="absolute left-3 top-3 h-4 w-4 text-gray-500" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+          <circle cx="11" cy="11" r="8"></circle>
+          <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+        </svg>
+      </div>
+
+      <div class="mt-2 border rounded-md max-h-72 overflow-auto">
+        <div class="space-y-1 p-1">
+          <!-- 動的に生成される項目リスト -->
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
